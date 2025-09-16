@@ -60,3 +60,6 @@ body{
   .container{padding:.75rem}
   .hero{padding:2.5rem .75rem}
 }
+html {
+  scroll-behavior: smooth;
+}
