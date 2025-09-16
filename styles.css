@@ -1,7 +1,7 @@
 :root{
-  --bg: #f6f7fb;
-  --card: #ffffff;
-  --accent1: #5b8cff;
+  --bg: #f6f7fb;         /* background хэвээрээ */
+  --card: #ffffff;        /* card background хэвээрээ */
+  --accent1: #d46cff;     /* өмнөх цэнхэр -> ягаан */
   --text: #222;
   --muted: #666;
   --radius: 12px;
@@ -34,16 +34,16 @@ body{
 
 .hero{
   padding:4rem 0;
-  background:linear-gradient(135deg, rgba(91,140,255,0.12), rgba(91,140,255,0.03));
+  background:linear-gradient(135deg, rgba(212,108,255,0.12), rgba(212,108,255,0.03));
   border-radius:var(--radius);
   margin:1rem 0;
 }
-.hero h2{margin:0 0 .5rem;font-size:2rem}
-.hero p{margin:0 0 1rem;color:var(--muted)}
+
 .btn{
   display:inline-block;padding:.6rem 1rem;border-radius:10px;text-decoration:none;
-  background:linear-gradient(90deg,var(--accent1),#3a6bf0);color:white;font-weight:700;
-  box-shadow:0 6px 20px rgba(59,103,240,0.18);
+  background:linear-gradient(90deg,var(--accent1),#c056ff); /* өмнөх #3a6bf0 -> #c056ff */
+  color:white;font-weight:700;
+  box-shadow:0 6px 20px rgba(192,86,255,0.18); /* өмнөх 59,103,240 -> 192,86,255 */
 }
 
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1rem}
